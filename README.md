@@ -1,6 +1,6 @@
 # CORS RSS Parser
 
-This mini project to create efficient parsing of XML/RSS data - here we are using CORS Anywhere to ensure we have relevant proxies and sorting the data using with some JavaScript functionality. 
+CORS RSS Parser alows efficient parsing of XML/RSS data - here we are using CORS Anywhere to ensure we have relevant proxies and sorting the data using with some JavaScript functionality. 
 
 The code also relies on jQuery for relevant AJAX requests.
 
