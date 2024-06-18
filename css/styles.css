@@ -1,0 +1,57 @@
+:root{
+    /* BG Colors */
+    --darker: #292b2f;
+    
+    /* Font Colors */
+    --light-white: #cfcfcf; 
+}
+
+body{
+    background-color: var(--darker);
+    color: var(--light-white);
+    padding: 10px;
+    overflow-y: hidden;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 32px;
+    letter-spacing: 0px;
+    word-spacing: -3.8px;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+}
+
+.message-embed{
+    display: inline-flex;
+    flex-direction: column;
+    user-select: none; 
+    text-align: center;
+    outline-style: solid;
+    border-radius: 10px;
+    outline-width: 1px;
+    outline-color: lightseagreen;
+    width: 200px;
+    cursor: pointer;
+    padding: 20px;
+    min-height: 300px;
+}
+
+.message-embed:hover{
+    outline-color: white;
+    box-shadow: -1px -1px 35px 10px rgba(255, 255, 255, 0.4);
+
+}
+
+.message-embed-image{
+    padding-top:5px; 
+    width: 150px; 
+    height: 150px;
+    border-radius: 100%;
+}
+
+.post-pubdate, .leading-message{
+    font-size: 15px;
+    padding-top: 12px;
+    color: white;
+}
